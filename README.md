@@ -7,3 +7,5 @@ Day 4 - OrdinalEncoder and LabelEncoder <br>
 Day 5 - Outlier Management <br>
 Day 6 - Simple Linear Regression Theory <br>
 Day 7 - Code Example and implementation from scratch for Simple Linear Regression <br>
+Day 8 - Multiple Linear Regression <br>
+Day 9 - Polynomial Regression <br>
