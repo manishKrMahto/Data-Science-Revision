@@ -1,0 +1,71 @@
+project 1 Regression
+dataset link -> https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
+
+folder structure 
+AQI-Regression-Project/
+│
+├── data/                     # Raw and processed datasets
+│   ├── raw/                  # Original datasets (never modify directly)
+│   ├── processed/            # Cleaned and feature-engineered data
+│
+├── notebooks/                # Jupyter notebooks (EDA, prototyping)
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_model_training.ipynb 
+│   ├── 03_model_evaluation.ipynb
+│
+├── src/                      # Main source code
+│   ├── __init__.py
+│   ├── data_preprocessing.py # Cleaning, feature engineering
+│   ├── train_models.py       # Train all regression models
+│   ├── evaluate_models.py    # Compare and evaluate models
+│   ├── predict.py            # Load model & predict AQI
+│
+├── models/                   # Saved ML models
+│   ├── linear_regression.pkl
+│   ├── xgboost.pkl
+│   ├── best_model.pkl
+│
+├── app/                      # Streamlit frontend
+│   ├── streamlit_app.py      # Main app file
+│
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── .gitignore                # Ignore unnecessary files (data, logs, pycache)
+└── LICENSE                   # License (MIT/Apache 2.0 if open source)
+
+Project 2 classification
+
+dataset link -> https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+
+project 3 clustering project 
+dataset link -> https://archive.ics.uci.edu/dataset/352/online+retail
+
+project 4 dimensionality reduction
+dataset link -> https://www.kaggle.com/datasets/brunogrisci/breast-cancer-gene-expression-cumida
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
